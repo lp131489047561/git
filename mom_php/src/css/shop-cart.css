@@ -1,0 +1,201 @@
+@charset "UTF-8";
+#shop-cart {
+  background: #F3F3F3; }
+
+#header {
+  background: #fff; }
+  #header .top {
+    background: #F3F3F3; }
+    #header .top p {
+      width: 326px;
+      height: 28px;
+      font-size: 12px;
+      line-height: 28px;
+      color: #666666; }
+      #header .top p a {
+        color: #D01744; }
+      #header .top p a:hover {
+        color: #0066EE; }
+    #header .top ul {
+      width: 332px; }
+      #header .top ul li {
+        float: left; }
+        #header .top ul li a {
+          font-size: 12px;
+          line-height: 28px;
+          color: #666666;
+          padding: 0 12px; }
+  #header .bottom {
+    height: 112px;
+    background: #fff; }
+    #header .bottom .logo {
+      width: 334px;
+      height: 112px; }
+      #header .bottom .logo h1 {
+        width: 200px;
+        height: 104px;
+        padding-top: 30px;
+        text-indent: -10000px; }
+        #header .bottom .logo h1 a {
+          display: block;
+          width: 200px;
+          height: 94px;
+          background: url("../img/logo.jpg") no-repeat; }
+    #header .bottom .flow {
+      padding-top: 51px; }
+
+#main .container .shop-title {
+  background: #F3F3F3;
+  line-height: 60px; }
+  #main .container .shop-title span {
+    display: inline-block;
+    width: 122px;
+    height: 61px;
+    font-size: 16px;
+    padding-left: 8px;
+    color: #666666; }
+    #main .container .shop-title span i {
+      font-size: 24px; }
+  #main .container .shop-title a {
+    display: inline-block;
+    width: 67px;
+    height: 61px;
+    font-size: 13px;
+    color: #666666; }
+  #main .container .shop-title a:hover {
+    color: #e5004a; }
+
+#main .container table {
+  display: block;
+  height: 666px; }
+  #main .container table thead, #main .container table tbody, #main .container table tfoot {
+    display: block; }
+  #main .container table thead {
+    height: 46px;
+    font-size: 12px;
+    line-height: 46px;
+    color: #666666;
+    padding-left: 12px;
+    background: #fff; }
+    #main .container table thead th {
+      display: inline-block;
+      height: 46px;
+      padding-left: 62px; }
+    #main .container table thead .th1 {
+      padding: 0; }
+    #main .container table thead .th2 {
+      margin-left: 186px; }
+    #main .container table thead .th3 {
+      margin-left: 426px; }
+  #main .container table tbody {
+    margin-top: 43px;
+    background: #fff; }
+    #main .container table tbody tr {
+      display: block;
+      height: 106px;
+      background: #FFFBF0;
+      border-bottom: 1px solid #E9E9E9;
+      padding: 17px 0 0 38px; }
+      #main .container table tbody tr td {
+        display: inline-block;
+        font-size: 12px;
+        color: #666666; }
+        #main .container table tbody tr td img {
+          width: 72px;
+          height: 74px; }
+      #main .container table tbody tr .td2 {
+        margin-left: 23px; }
+      #main .container table tbody tr .td3 {
+        width: 300px;
+        margin-left: 22px; }
+        #main .container table tbody tr .td3 a {
+          color: #666666; }
+        #main .container table tbody tr .td3 a:hover {
+          color: #E9004B; }
+      #main .container table tbody tr .td4 {
+        width: 60px;
+        margin-left: 190px; }
+      #main .container table tbody tr .td5 {
+        width: 66px;
+        margin-left: 94px; }
+      #main .container table tbody tr .td6 {
+        width: 66px;
+        margin-left: 6px; }
+      #main .container table tbody tr .td7 {
+        width: 34px;
+        margin-left: 27px; }
+      #main .container table tbody tr .td8 {
+        width: 26px;
+        height: 73px;
+        margin-left: 49px;
+        padding-top: 5px; }
+        #main .container table tbody tr .td8 span {
+          display: inline-block;
+          margin: 6px 0;
+          cursor: pointer; }
+        #main .container table tbody tr .td8 span:hover {
+          color: #E9004B; }
+      #main .container table tbody tr .td5::before {
+        content: '￥'; }
+      #main .container table tbody tr .td7::before {
+        content: '￥'; }
+  #main .container table tfoot {
+    display: block;
+    height: 50px;
+    width: 150px;
+    font-size: 14px;
+    color: #E9004B;
+    margin-top: 10px; }
+    #main .container table tfoot .shop-total::before {
+      content: '￥'; }
+    #main .container table tfoot a {
+      display: block;
+      width: 60px;
+      height: 36px;
+      font-size: 12px;
+      line-height: 36px;
+      color: #fff;
+      background: #E9004B;
+      margin-top: 5px; }
+
+#footer {
+  border-top: 1px solid #E5E5E5; }
+  #footer .center {
+    width: 462px;
+    height: 161px;
+    margin: 0 auto;
+    padding-top: 13px; }
+    #footer .center ul {
+      height: 18px;
+      padding-left: 82px; }
+      #footer .center ul li {
+        float: left;
+        height: 18px;
+        font-size: 0; }
+        #footer .center ul li a {
+          display: inline-block;
+          padding: 0 10px;
+          height: 18px;
+          font-size: 12px;
+          line-height: 18px;
+          border-left: 1px solid #999999;
+          color: #666666; }
+        #footer .center ul li a:hover {
+          color: #e5004a; }
+      #footer .center ul :nth-child(1) a {
+        border-left: 0; }
+    #footer .center p {
+      height: 14px;
+      font-size: 12px;
+      line-height: 14px;
+      margin-top: 21px;
+      color: #9C9C9C; }
+    #footer .center div {
+      margin-top: 31px;
+      font-size: 0;
+      padding-left: 78px; }
+      #footer .center div :nth-child(2) {
+        margin-left: 4px; }
+        #footer .center div :nth-child(2) img {
+          width: 127px;
+          height: 47px; }

@@ -1,0 +1,138 @@
+#header {
+  background: #F2F2F2; }
+  #header .container {
+    height: 104px; }
+    #header .container .logo {
+      width: 334px;
+      height: 104px; }
+      #header .container .logo h1 {
+        width: 188px;
+        height: 104px;
+        padding-top: 10px;
+        text-indent: -10000px; }
+        #header .container .logo h1 a {
+          display: block;
+          width: 188px;
+          height: 94px;
+          background: url("../img/zhuce-logo.png") no-repeat; }
+      #header .container .logo span {
+        width: 146px;
+        height: 52px;
+        font-size: 28px;
+        line-height: 52px;
+        color: #333333;
+        margin-top: 15px;
+        padding-left: 30px;
+        border-left: 1px solid #DBDBDB; }
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 481px;
+  background: red;
+  border-bottom: 1px solid #DBDBDB; }
+  #main form {
+    position: absolute;
+    left: 895px;
+    top: 46px;
+    width: 342px;
+    height: 392px;
+    background: #fff;
+    border: 1px solid #DBDBDB;
+    padding: 29px 0 0 23px; }
+    #main form div {
+      width: 319px;
+      height: 28px; }
+      #main form div h3 {
+        display: inline-block;
+        width: 72px;
+        height: 28px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #686565;
+        font-weight: bold; }
+      #main form div p {
+        width: 140px;
+        height: 28px;
+        font-size: 12px;
+        line-height: 28px;
+        color: #999999; }
+    #main form .hint {
+      height:20px;
+      font-size:12px;
+      line-height:20px;
+      padding-left:20px;
+      margin-top:7px;
+      color:#e5004b; }
+    #main form ul {
+      width: 296px;
+      margin-top: 6px; }
+      #main form ul li {
+        position: relative;
+        width: 296px;
+        height: 40px;
+        margin-top: 12px; }
+        #main form ul li > input {
+          width: 296px;
+          height: 40px;
+          background: #F9F9F9;
+          font-size: 12px;
+          color: #A9A9A9;
+          padding-left: 44px; }
+        #main form ul li i {
+          position: absolute;
+          left: 17px;
+          top: 50%;
+          transform: translate(0, -50%);
+          font-size: 14px; }
+      #main form ul :nth-child(3) #mobile-code, #main form ul :nth-child(3) #auth-code, #main form ul :nth-child(4) #mobile-code, #main form ul :nth-child(4) #auth-code {
+        width: 176px; }
+      #main form ul :nth-child(3) a, #main form ul :nth-child(3) button, #main form ul :nth-child(4) a, #main form ul :nth-child(4) button {
+        display: inline-block;
+        cursor: pointer;
+        width: 104px;
+        height: 40px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 40px;
+        color: #fff;
+        background: #B2ACD9; }
+      #main form ul :nth-child(3) button, #main form ul :nth-child(4) button {
+        background: #E5004B; }
+    #main form p {
+      width: 296px;
+      height: 32px;
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 32px;
+      padding-left: 8px;
+      color: #666666; }
+      #main form p a {
+        color: #137CE9; }
+    #main form #btn {
+      width: 295px;
+      height: 44px;
+      background: #E5004B;
+      font-size: 18px;
+      line-height: 44px;
+      cursor: pointer;
+      color: #fff; }
+
+#footer {
+  height: 130px;
+  background: #F3F3F3;
+  padding-left: 470px; }
+  #footer .center {
+    width: 427px;
+    height: 130px; }
+    #footer .center p {
+      height: 52px;
+      font-size: 12px;
+      line-height: 52px;
+      color: #9C9C9C; }
+    #footer .center div {
+      width: 268px;
+      margin: 12px auto; }
+      #footer .center div :nth-child(2) img {
+        width: 127px;
+        height: 47px; }

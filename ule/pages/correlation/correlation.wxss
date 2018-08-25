@@ -1,0 +1,36 @@
+.container {
+	padding: 0;
+	padding-bottom: 110rpx;
+}
+.banner-box .banner-img {
+	width: 750rpx;
+	height: 520rpx;
+}
+.box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 750rpx;
+	height: 216rpx;
+	padding-bottom:7rpx;
+}
+.box .item{
+	display: flex;
+	flex-direction: column;
+	justify-content: sapce-around;
+	align-items: center;
+	width: 160rpx;
+	height: 160rpx;
+}
+.box .item-imgs{
+	width: 108rpx;
+	height: 108rpx;
+}
+.box .item .text{
+	font-size:28rpx;
+}
+.back-img {
+	width: 750rpx;
+	height: 450rpx;
+	border-bottom:20rpx solid #fff;
+}

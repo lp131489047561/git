@@ -1,0 +1,17 @@
+<view class="footer" style="{{zIndex===false?'z-index:1;':'z-index:-1;'}}">
+	<view class="item-box" bindtap="indexEvent">
+		<image wx:if="{{index!==false}}" src="http://192.168.0.253:809/app/picture/index_gray.png"/>
+		<image wx:else="{{index!==true}}" src="http://192.168.0.253:809/app/picture/index_deep.png"/>
+		<text class="foot-text" style="{{index!==false?'color:#909092':'color:#8e6a2e'}}">{{title.index}}</text>
+	</view>
+	<view class="item-box" bindtap="centreEvent">
+		<image wx:if="{{centre===false}}" src="http://192.168.0.253:809/app/picture/centre_gray.png"/>
+		<image wx:else="{{show===true}}" src="http://192.168.0.253:809/app/picture/centre_deep.png"/>
+		<text class="foot-text" style="{{centre===false?'color:#909092':'color:#8e6a2e'}}">{{title.centre}}</text>
+	</view>
+	<view class="item-box" bindtap="correEvent">
+		<image wx:if="{{corre===false}}" src="http://192.168.0.253:809/app/picture/corre_gray.png"/>
+		<image wx:else="{{corre===true}}" src="http://192.168.0.253:809/app/picture/corre_deep.png"/>
+		<text class="foot-text" style="{{corre===false?'color:#909092':'color:#8e6a2e'}}">{{title.corre}}</text>
+	</view>
+</view>

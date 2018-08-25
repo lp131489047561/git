@@ -1,0 +1,19 @@
+<form class="box" bindsubmit="formSubmit" bindreset="formReset">
+	<view class="user-input">
+		<view class="mobile">
+			<text class="title">手机号</text>
+			<input type="number" bindinput="numberVerify" maxlength="11" placeholder="请输入手机号" placeholder-style="color: #cccccc"/>
+			<view class="text"></view>
+		</view>
+  		<view class="verify">
+  			<text class="title">验证码</text>
+			<input type="number" bindinput="codeVerify" placeholder="请输入验证码" placeholder-style="color: #cccccc" />
+			<view class="text" wx:if="{{alterColor===true}}" bindtap="getCode" style="color:#41b91a">{{codeName}}</view>
+			<view class="text" wx:if="{{alterColor===false}}" style="color:#cccccc">{{codeName}}</view>
+  		</view>
+  		<view class="btn-box">
+			<button class="login-btn" wx:if="{{alterLoginBtn===true}}" bindtap="login">登录</button>
+			<button class="login-btn" wx:if="{{alterLoginBtn===false}}" style="opacity:0.5">登录</button>
+		</view>
+	</view>
+</form>

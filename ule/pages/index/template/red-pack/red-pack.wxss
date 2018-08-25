@@ -1,0 +1,47 @@
+.red-shade {
+	position: relative;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 750rpx;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+.red-shade .red-pack {
+	position: absolute;
+	left: 50%;
+	top: 168rpx;
+	transform: translate(-50%, 0);
+	width: 521rpx;
+	height: 650rpx;
+}
+.red-shade .close {
+	position: absolute;
+	left: 50%;
+	top: 876rpx;
+	transform: translate(-50%, 0);
+	width: 66rpx;
+	height: 66rpx;
+}
+.red-shade .share-box {
+	position: absolute;
+	left: 305rpx;
+	top: 749rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	line-height: 28rpx;
+	width: 168rpx;
+	height: 28rpx;
+}
+.red-shade .text {
+	font-size:28rpx;
+}
+.red-shade .sanjiao {
+	width: 0;
+	border:10rpx solid transparent;
+	border-left:8rpx solid #000;
+	margin-right: -10rpx;
+}

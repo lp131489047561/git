@@ -1,0 +1,12 @@
+<template name="window-hint">
+  <view class="show">
+		<view bindtap="hindWindow" class="shade"></view>
+		<view class="window-hint">
+			<view class="hint">你还没有注册~</view>
+			<view class="select">
+				<button bindtap="hindWindow" class="look-btn">再看看</button>
+				<button bindtap="toLogin" class="login-btn">去注册</button>
+			</view>
+		</view>
+	</view>
+</template>

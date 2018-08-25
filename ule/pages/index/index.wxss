@@ -1,0 +1,126 @@
+@import "template/window-hint/window-hint.wxss";
+@import "template/red-pack/red-pack.wxss";
+
+.index-back {
+	width:750rpx;
+	height: 676rpx;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.arc {
+	width: 750rpx;
+	height: 81rpx;
+	position: fixed;
+	left: 0;
+	top: 597rpx;
+}
+.func-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 750rpx;
+    height: 435rpx;
+    position: fixed;
+    left: 0;
+    bottom: 110rpx;
+}
+.func-box .func-top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 750rpx;
+	height: 194rpx;
+}
+.func-box .func-top .integral,.order-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+} 
+.func-box .func-top .integral{
+	width: 150rpx;
+	height: 150rpx;
+} 
+.func-box .func-top .text{
+	font-size: 26rpx;
+	color: #444444;
+} 
+.func-box .func-top .saoma{
+	width: 220rpx;
+	height: 220rpx;
+	margin-top: -30rpx;
+} 
+.func-box .func-top .order-box{
+	width: 150rpx;
+	height: 150rpx;
+}
+.func-box .func-top .order{
+	width: 90rpx;
+	height: 86rpx;
+}
+.func-box .func-top .integral .num{
+	font-size: 56rpx;
+	color: #f75352;
+}
+.func-box .func-bottom {
+	width: 750rpx;
+	height: 185rpx;
+}
+.func-box .func-bottom .time-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 641rpx;
+	height: 128rpx;
+	margin:0 auto;
+	background: #f1ede2;
+}
+.func-box .func-bottom .time-box .time-title{
+	font-size:26rpx;
+	color: #2e2b24;
+}
+.func-box .func-bottom .time-box .time{
+	font-size: 44rpx;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+
+.impower-box {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 750rpx;
+	height: 100%;
+	background: #ffffff;
+}
+.header {
+    margin: 90rpx 0 90rpx 50rpx;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    width: 650rpx;
+    height: 300rpx;
+    line-height: 450rpx;
+}
+.header .head-img {
+    width: 200rpx;
+    height: 200rpx;
+}
+.content {
+    margin-left: 50rpx;
+    margin-bottom: 90rpx;
+}
+.content text {
+    display: block;
+    color: #9d9d9d;
+    margin-top: 40rpx;
+}
+.bottom {
+    border-radius: 80rpx;
+    margin: 70rpx 50rpx;
+    font-size: 35rpx;
+}
+
+

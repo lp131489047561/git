@@ -1,0 +1,54 @@
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	widht: 750rpx;
+	height: 522rpx;
+}
+.box .user-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 750rpx;
+	height: 443rpx;
+}
+.box .user-input .mobile,.verify,.voice-verify {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 690rpx;
+}
+.box .user-input .mobile,.verify {
+	justify-content: space-between;
+	height: 112rpx;
+	border-bottom: 1px solid #dbdbdb;
+}
+.box .user-input .title {
+	width: 99rpx;
+	font-size: 31rpx;
+	color: #333333;
+}
+.box .user-input .text {
+	width: 187rpx;
+	font-size: 31rpx;
+	color: #cccccc;
+}
+.box .user-input input{
+	width: 282rpx;
+	font-size: 31rpx;
+}
+.box .user-input .btn-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 700rpx;
+	height: 135rpx;
+}
+.box .user-input .btn-box .login-btn{
+	width: 690rpx;
+	height: 95prx;
+	background: #1aac19;
+	color: #ffffff;
+	margin-left: 0rpx;
+}
+

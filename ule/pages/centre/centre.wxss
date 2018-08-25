@@ -1,0 +1,151 @@
+.head-box{
+	position: fixed;
+	left: 0;
+	top:0;
+	display: flex;
+	width: 750rpx;
+	height: 300rpx;
+}
+.head-box .head-item {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 750rpx;
+	height: 289rpx;
+}
+.head-box .userinfo-back {
+	z-index: -1000;
+	position: fixed;
+	left: 0;
+	top:0;
+	width: 750rpx;
+	height: 300rpx;
+}
+.head-box .head{
+	width: 161rpx;
+	height: 161rpx;
+	background: #ffffff;
+	border-radius: 50%;
+}
+.head-box .person-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 242rpx;
+	height: 137rpx;
+	font-size:22rpx;
+	color: #ffffff;
+}
+.head-box .null-box {
+	width: 241rpx;
+	height: 161rpx;
+}
+.head-box .person-info .name-member {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 242rpx;
+	height: 36rpx;
+}
+.head-box .name-member .name{
+	font-size: 32rpx;
+	line-height: 32rpx;
+	font-weight: bold;
+}
+.head-box .name-member .member{
+	width: 114rpx;
+	height: 30rpx;
+	background: ;
+	background: linear-gradient(to right ,#f8f09d, #f5d77f);
+	text-align: center;
+	color: #8f6825;
+	border-radius:10rpx 10rpx 10rpx 10rpx;
+}
+.head-box .person-info .id-indate {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 242rpx;
+	height: 64rpx;
+}
+.head-box .id-indate .user-id {
+	width: 242rpx;
+	height: 20rpx;
+	font-size: 20rpx;
+	line-height: 20rpx;
+}
+.head-box .id-indate .indate {
+	width: 242rpx;
+	height: 24rpx;
+	font-size: 24rpx;
+	line-height: 24rpx;
+}
+.select-item {
+	position: fixed;
+	left: 0;
+	bottom:110rpx;
+	width: 750rpx;
+	height: 796rpx;
+}
+.select-item .same-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 750rpx;
+	height: 90rpx;
+	border-bottom: 1px solid #e5e5e5;
+	padding-left: 25rpx;
+	box-sizing: border-box;
+}
+.select-item .same-name .item-name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 177rpx;
+	height:90rpx;
+}
+.select-item .same-name .staff-inlet {
+	width: 235rpx;
+	height:90rpx;
+}
+.select-item .same-name .left {
+	justify-content: flex-start;
+	font-size: 28rpx;
+}
+.select-item .item-name .text {
+	font-size: 28rpx;
+}
+.select-item .same-name .itme-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 211rpx;
+	height:90rpx;
+	padding-right: 25rpx;
+	box-sizing: border-box;
+}
+.select-item .itme-right .more {
+	font-size: 22rpx;
+	color: #aaaaaa;
+}
+.select-item .same-name .num {
+	font-size:22rpx;
+	color: #9b9b9b;
+}
+.select-item .itme-right .sanjiao {
+	width: 16rpx;
+	height:26rpx;
+}
+.select-item image {
+	width: 36rpx;
+	height:40rpx;
+}
+.select-item .order {
+	height: 100rpx;
+}
+.select-item .agency {
+	height: 109rpx;
+	align-items: flex-end;
+}

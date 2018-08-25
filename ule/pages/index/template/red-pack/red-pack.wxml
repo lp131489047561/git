@@ -1,0 +1,10 @@
+<template name="red-pack">
+	<view class="red-shade">
+		<image class="red-pack" src='/images/red-pack.png'/>
+		<view class="share-box">
+			<text class="text">分享给好友</text>
+			<view class="sanjiao"></view>
+		</view>
+		<image bindtap="redPack" class="close" src='/images/close.png'/>
+	</view>
+</template>

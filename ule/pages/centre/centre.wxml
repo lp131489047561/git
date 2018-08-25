@@ -1,0 +1,40 @@
+<view class="container">
+	<view class="head-box">
+		<image class="userinfo-back" src="http://192.168.0.253:809/app/picture/userinfo-back.png"/>
+		<view class="head-item">
+			<image class="head" src="{{userHeadIcon}}"/>
+			<view class="person-info">
+				<view class="name-member">
+					<text class="name">{{userName}}</text>
+					<view class="member">年卡会员</view>
+				</view>
+				<view class="id-indate">
+					<text class="user-id">lD：{{userId}}</text>
+					<text class="indate">有效期：2018-12-30</text>
+				</view>
+			</view>
+			<view class="null-box"></view>
+		</view>
+	</view>
+	<view class="select-item">
+		<view class="same-name order">
+			<text class="left item-name">我的订单</text>
+			<view class="itme-right" style="justify-content:space-between;width:150rpx">
+				<text class="more">查看全部</text>
+				<image class="sanjiao" src="http://192.168.0.253:809/app/picture/sanjiao.png"/>
+			</view>
+		</view>
+		<view class="{{item.clas}}" wx:for="{{data}}" wx:key="index">
+			<view class="{{item.titleClas}}">
+				<image src="{{item.src}}"/>
+				<text class="text">{{item.text}}</text>
+			</view>
+			<view class="itme-right">
+				<image wx:if="{{item.sanJiaoSrc}}" class="sanjiao" src="{{item.sanJiaoSrc}}"/>
+				<text wx:elseif="{{item.text==='联系我们'}}" class="num">{{item.num}}</text>
+			</view>
+		</view>
+	</view>
+	
+	<footer id="footer"></footer>
+</view>

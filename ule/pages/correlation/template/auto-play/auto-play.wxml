@@ -1,0 +1,10 @@
+<template name="auto-play">
+	<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}" indicator-color="rgba(255, 255, 255, .8)" circular="true" indicator-active-color="#926b32"
+		style="width:750rpx;height:520rpx;">
+	  <block wx:for="{{autoPlay}}" wx:key="index">
+	    <swiper-item>
+	      <image src="{{item}}" class="slide-image" width="355" height="150" style="width:750rpx;height:520rpx;"/>
+	    </swiper-item>
+	  </block>
+	</swiper>
+</template>

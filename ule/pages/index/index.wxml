@@ -1,0 +1,32 @@
+<import src="template/window-hint/window-hint.wxml"/>
+<import src="template/impower-window/impower-window.wxml"/>
+<import src="template/red-pack/red-pack.wxml"/>
+
+<view class="container">
+	<image class="index-back" src="http://192.168.0.253:809/app/picture/index_back.png"/>
+	<image class="arc" src="http://192.168.0.253:809/app/picture/index_arc.png"/>
+ 	<view class="func-box">
+ 		<view class="func-top">
+ 			<view class="integral">
+ 				<text class="num">{{userIntegral}}</text>
+ 				<text class="text">我的积分</text>
+ 			</view>
+ 			<image bindtap="saoma" class="saoma" src="http://192.168.0.253:809/app/picture/saoma.png"/>
+ 			<view class="order-box">
+ 				<image class="order" src="http://192.168.0.253:809/app/picture/order.png"/>
+ 				<text class="text">预约包场</text>
+ 			</view>
+ 		</view>
+ 		<view class="func-bottom">
+ 			<view class="time-box">
+ 				<text class="time-title">空间已使用</text>
+ 				<text class="time">01:25:59</text>
+ 			</view>
+ 		</view>
+ 	</view>
+ 	
+	<footer id='footer'></footer>
+ 	<template wx:if="{{isSaoMa===true}}" is="window-hint"/>
+ 	<template wx:if="{{isShowLogin!==false}}" is="impower-window" data="{{isShowLogin}}"/>
+ 	<template wx:if="{{isShowRedPack!==false}}" is="red-pack"/>
+</view>

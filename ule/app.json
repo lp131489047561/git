@@ -1,0 +1,13 @@
+{
+  "pages": [
+  	"pages/index/index",
+  	"pages/login/login",
+  	"pages/correlation/correlation",
+  	"pages/centre/centre"
+  ],
+  "window": {
+    "navigationBarTitleText": "U乐空间",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundTextStyle": "light"
+  }
+}

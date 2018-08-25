@@ -1,0 +1,14 @@
+<import src="template/auto-play/auto-play.wxml"/>
+
+<view class="container">
+	<template is="auto-play" data="{{autoPlay}}"/>
+	<view class="box">
+		<view class="item" wx:for="{{data}}" wx:key="index">
+			<image class="item-imgs" src="{{item.src}}"/>
+			<text class="text">{{item.text}}</text>
+		</view>
+	</view>
+	<image class="back-img" wx:for="{{imgSrc}}" wx:key="index" src="{{item}}"/>
+
+ 	<footer id='footer'></footer>
+</view>
